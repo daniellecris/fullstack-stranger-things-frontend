@@ -2,14 +2,14 @@ import React from 'react';
 import CharactersService from '../services/charactersAPI';
 import Table from './Table';
 
-require('dotenv').config();
+// require('dotenv').config();
 
 const getRealityClass = (hereIsTheUpsideDownWorld) => (
   hereIsTheUpsideDownWorld ? 'upside-down' : 'stranger-things'
 );
 
 const strangerThingsConfig = {
-  url: process.env.REACT_APP_HANKINS_URL,
+  url: process.env.REACT_APP_HAWKINS_URL,
   timeout: +process.env.REACT_APP_HAWKINS_TIMEOUT,
 };
 
